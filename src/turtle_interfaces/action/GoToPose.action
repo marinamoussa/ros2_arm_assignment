@@ -1,6 +1,0 @@
-TargetPose target
----
-bool success
-float64 final_distance
----
-float64 distance_to_goal
