@@ -58,4 +58,9 @@ def generate_launch_description():
             executable='servo_serial_bridge',
             output='screen',
         ),
+        Node(
+            package='arm_description',
+            executable='traj_pub',
+            output='screen',
+        ),
     ])

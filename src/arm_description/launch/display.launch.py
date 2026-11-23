@@ -8,6 +8,7 @@ def generate_launch_description():
     pkg_share = get_package_share_directory('arm_description')
     urdf_file = os.path.join(pkg_share, 'urdf', 'arm.urdf')
     rviz_file = os.path.join(pkg_share, 'rviz', 'arm.rviz')
+
     with open(urdf_file, 'r') as f:
         robot_desc = f.read()
 
