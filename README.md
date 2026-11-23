@@ -50,3 +50,13 @@ source install/setup.bash
 | Pin 6 (PWM) | Servo 3 (`joint3`) |
 | Pin 9 (PWM) | Servo 4 (`joint4`) |
 | GND | Common ground with external 5V–6V servo power supply |
+
+## Pin Mapping
+
+| Board Pin | Connects To |
+| :--- | :--- |
+| Pin 3 (PWM) | Servo 1 (`joint1`) |
+| Pin 5 (PWM) | Servo 2 (`joint2`) |
+| Pin 6 (PWM) | Servo 3 (`joint3`) |
+| Pin 9 (PWM) | Servo 4 (`joint4`) |
+| GND | Common ground with external 5V–6V servo power supply |
